@@ -1,0 +1,106 @@
+.pd{
+display: block;
+width: 670px !important;
+margin-left: 0px !important;
+background-color: #e8ab2a;
+}
+
+.uno{
+display: table-cell;
+width: 335px;
+height: 489px;
+position: relative;
+top: 0px;
+left: 0px;
+margin: 0px;
+background-image: url(http://i.imgur.com/DgpSvB7.png);
+repeat: no-repeat;
+background-size: 335px 489px;
+}
+
+.hstr{
+width:335px;
+height:489px;
+background-color: black;
+transition: all 1.5s;
+-webkit-transition: all 1.5s;
+-moz-transition: all 1.5s;
+-ms-transition: all 1.5s;
+-o-transition: all 1.5s;
+opacity: 0;
+overflow: auto;
+}
+
+.hstr:hover{
+opacity: 1;
+}
+
+.ttrhstr{
+width: 275px;
+margin-left: 30px;
+margin-top: 10px;
+border-bottom: 1px solid #e8ab2a;
+font-family: 'Times New Roman', sans serif;
+text-transform: uppercase;
+font-weight: lighter;
+font-size: 15px; color: #f2cb58;
+letter-spacing: 3px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.txthstr{
+width: 275px;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 14px;
+font-family: 'Times New Roman', sans serif;
+font-weight: lighter;
+font-size: 14px;
+color: #f2cb58;
+text-align: justify;
+height: 425px;
+overflow: auto;
+line-height: 15px;
+}
+
+.info{
+display: table-cell;
+width: 335px;
+height: 489px;
+background-color: #e8ab2a;
+font-style: normal;
+}
+
+.ttrinfo{
+width: 275px;
+margin-left: 30px;
+margin-top: 10px;
+border-bottom: 1px solid #f2cb58;
+font-family: 'Times New Roman', sans serif;
+text-transform: uppercase;
+font-weight: lighter;
+font-size: 15px;
+color: black;
+letter-spacing: 3px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.txtinfo{
+width: 275px;
+margin-left: 30px;
+margin-top: 10px;
+margin-bottom: 15px;
+font-family: 'Times New Roman', sans serif;
+font-size: 14px;
+color: black;
+text-align: justify;
+height: 405px;
+overflow: auto;
+line-height: 30px;
+}
+
+.txtinfo > span{
+padding: 18px;
+}
